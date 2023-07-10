@@ -16,16 +16,14 @@ jobs:
       pull-requests: write
     steps:
       - uses: actions/checkout@v2
-      - name: Set up Python 3.8
-        uses: actions/setup-python@v2
-        with:
-          python-version: 3.8
-      - name: Install Trestle
-        run: make trestle-install
       - name: Regenerate profiles
-        run: make regenerate-profiles
-      - name: Update and PR
-        run: bash ./vendor/scripts/update.sh -c "sync OSCAL profiles" -a "$ACTOR" "markdown/*"
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          ACTOR: "${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>"
+        id: regenerate
+        uses: jpower432/trestle-bot@feat/add-gh-prs
+        with:
+          markdown_path: "markdown/profiles"
+          oscal_model: "profile"
+          file_pattern: "markdown/*"
+          branch: "autoupdate-${{ github.run_id }}"
+          skip_assemble: true
+          skip_items: "fedramp_rev5_high"
+          github_token: ${{ secrets.GITHUB_TOKEN }}
