@@ -34,6 +34,10 @@ x-trestle-global:
 
 - \[b.\] Review and update the system component inventory {{ insert: param, cm-08_odp.02 }}.
 
+- \[cm-8_fr\]
+
+  - \[Requirement:\] must be provided at least monthly or when there is a change.
+
 ## Control Assessment Objective
 
 - \[CM-08a.\]

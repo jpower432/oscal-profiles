@@ -38,6 +38,10 @@ x-trestle-global:
 
 - \[b.\] Prohibit or restrict the use of the following functions, ports, protocols, software, and/or services: {{ insert: param, cm-7_prm_2 }}.
 
+- \[cm-7_fr\]
+
+  - \[(b) Requirement:\] The service provider shall use Security guidelines (See CM-6) to establish list of prohibited or restricted functions, ports, protocols, and/or services or establishes its own list of prohibited or restricted functions, ports, protocols, and/or services if STIGs or CIS is not available.
+
 ## Control Assessment Objective
 
 - \[CM-07a.\] the system is configured to provide only {{ insert: param, cm-07_odp.01 }};

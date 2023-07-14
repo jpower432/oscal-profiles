@@ -40,6 +40,10 @@ x-trestle-global:
 
 - \[e.\] Review and update the event types selected for logging {{ insert: param, au-02_odp.04 }}.
 
+- \[au-2_fr\]
+
+  - \[Requirement:\] Coordination between service provider and consumer shall be documented and accepted by the JAB/AO.
+
 ## Control Assessment Objective
 
 - \[AU-02a.\] {{ insert: param, au-02_odp.01 }} that the system is capable of logging are identified in support of the audit logging function;
@@ -57,6 +61,7 @@ x-trestle-global:
 
 ## Control guidance
 
+Annually or whenever changes in the threat environment are communicated to the service provider by the JAB/AO.
 An event is an observable occurrence in a system. The types of events that require logging are those events that are significant and relevant to the security of systems and the privacy of individuals. Event logging also supports specific monitoring and auditing needs. Event types include password changes, failed logons or failed accesses related to systems, security or privacy attribute changes, administrative privilege usage, PIV credential usage, data action changes, query parameters, or external credential usage. In determining the set of event types that require logging, organizations consider the monitoring and auditing appropriate for each of the controls to be implemented. For completeness, event logging includes all protocols that are operational and supported by the system.
 
 To balance monitoring and auditing requirements with other system needs, event logging requires identifying the subset of event types that are logged at a given point in time. For example, organizations may determine that systems need the capability to log every file access successful and unsuccessful, but not activate that capability except for specific circumstances due to the potential burden on system performance. The types of events that organizations desire to be logged may change. Reviewing and updating the set of logged events is necessary to help ensure that the events remain relevant and continue to support the needs of the organization. Organizations consider how the types of logging events can reveal information about individuals that may give rise to privacy risk and how best to mitigate such risks. For example, there is the potential to reveal personally identifiable information in the audit trail, especially if the logging event is based on patterns or time of usage.
