@@ -30,7 +30,7 @@ jobs:
           token: ${{ steps.get_installation_token.outputs.token }}
       - name: Autofix profile
         id: autofix-profile
-        uses: RedHatProductSecurity/trestle-bot@main
+        uses: jpower432/trestle-bot@feat/add-gh-prs
         with:
           markdown_path: "markdown/profiles"
           oscal_model: "profile"
