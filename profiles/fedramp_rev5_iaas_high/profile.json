@@ -38,6 +38,9 @@
       }
     ],
     "merge": {
+      "combine": {
+        "method": "merge"
+      },
       "as-is": true
     },
     "modify": {
