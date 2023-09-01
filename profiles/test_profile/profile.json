@@ -1,0 +1,23 @@
+{
+  "profile": {
+    "uuid": "be8ca125-df79-463e-aea4-168e9f66256f",
+    "metadata": {
+      "title": "REPLACE_ME",
+      "last-modified": "2023-09-01T19:44:02.773341+00:00",
+      "version": "REPLACE_ME",
+      "oscal-version": "1.0.4"
+    },
+    "imports": [
+      {
+        "href": "trestle://profiles/example/profile.json",
+        "include-all": {}
+      }
+    ],
+    "merge": {
+      "combine": {
+        "method": "merge"
+      },
+      "as-is": true
+    }
+  }
+}
