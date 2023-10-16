@@ -12,6 +12,8 @@ x-trestle-set-params:
   #
   ac-04.04_odp.01:
     values:
+    profile-values:
+      - test
   ac-04.04_odp.02:
     values:
   ac-04.04_odp.03:
