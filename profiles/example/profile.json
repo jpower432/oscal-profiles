@@ -3,7 +3,7 @@
     "uuid": "7bd0c149-c1ce-4278-8709-84d8585af4ce",
     "metadata": {
       "title": "Example",
-      "last-modified": "2023-07-26T20:30:16.964479+00:00",
+      "last-modified": "2023-10-16T21:05:19.963325+00:00",
       "version": "0.0.1",
       "oscal-version": "1.0.4"
     },
@@ -91,7 +91,10 @@
           "param-id": "ac-02.01_odp"
         },
         {
-          "param-id": "ac-04.04_odp.01"
+          "param-id": "ac-04.04_odp.01",
+          "values": [
+            "test"
+          ]
         },
         {
           "param-id": "ac-04.04_odp.02"
