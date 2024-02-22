@@ -1,0 +1,23 @@
+{
+  "profile": {
+    "uuid": "ce0a3097-35ae-4194-ad8c-4fde06c2ce85",
+    "metadata": {
+      "title": "REPLACE_ME",
+      "last-modified": "2024-02-22T12:48:31.566417+00:00",
+      "version": "REPLACE_ME",
+      "oscal-version": "1.0.4"
+    },
+    "imports": [
+      {
+        "href": "trestle://catalogs/nist_rev5_800_53/catalog.json",
+        "include-all": {}
+      }
+    ],
+    "merge": {
+      "combine": {
+        "method": "merge"
+      },
+      "as-is": true
+    }
+  }
+}
