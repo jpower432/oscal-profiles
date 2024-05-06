@@ -1,25 +1,16 @@
 {
   "profile": {
-    "uuid": "7bd0c149-c1ce-4278-8709-84d8585af4ce",
+    "uuid": "886f82ef-7330-48de-a3b5-be7052740737",
     "metadata": {
-      "title": "Example",
-      "last-modified": "2024-05-06T21:52:10.763719+00:00",
+      "title": "REPLACE_ME",
+      "last-modified": "2024-05-06T21:52:07.363284+00:00",
       "version": "1.0.0",
       "oscal-version": "1.0.4"
     },
     "imports": [
       {
-        "href": "trestle://profiles/fedramp_rev5_high/profile.json",
-        "include-controls": [
-          {
-            "with-ids": [
-              "ac-1",
-              "ac-2",
-              "ac-4.4",
-              "sc-1"
-            ]
-          }
-        ]
+        "href": "trestle://profiles/example/profile.json",
+        "include-all": {}
       }
     ],
     "merge": {
@@ -30,12 +21,6 @@
     },
     "modify": {
       "set-parameters": [
-        {
-          "param-id": "ac-01_odp.01"
-        },
-        {
-          "param-id": "ac-01_odp.02"
-        },
         {
           "param-id": "ac-01_odp.03"
         },
@@ -88,9 +73,6 @@
           "param-id": "ac-02_odp.10"
         },
         {
-          "param-id": "ac-02.01_odp"
-        },
-        {
           "param-id": "ac-04.04_odp.01"
         },
         {
@@ -98,12 +80,6 @@
         },
         {
           "param-id": "ac-04.04_odp.03"
-        },
-        {
-          "param-id": "sc-01_odp.01"
-        },
-        {
-          "param-id": "sc-01_odp.02"
         },
         {
           "param-id": "sc-01_odp.03"
