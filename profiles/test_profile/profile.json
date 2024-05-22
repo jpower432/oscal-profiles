@@ -3,8 +3,8 @@
     "uuid": "72600cbf-3460-4f39-a132-821c090c752a",
     "metadata": {
       "title": "REPLACE_ME",
-      "last-modified": "2024-05-22T19:02:04.137962+00:00",
-      "version": "REPLACE_ME",
+      "last-modified": "2024-05-22T19:04:35.716386+00:00",
+      "version": "1.0.0",
       "oscal-version": "1.0.4"
     },
     "imports": [
@@ -18,6 +18,92 @@
         "method": "merge"
       },
       "as-is": true
+    },
+    "modify": {
+      "set-parameters": [
+        {
+          "param-id": "ac-01_odp.03"
+        },
+        {
+          "param-id": "ac-01_odp.04"
+        },
+        {
+          "param-id": "ac-01_odp.05"
+        },
+        {
+          "param-id": "ac-01_odp.06"
+        },
+        {
+          "param-id": "ac-01_odp.07"
+        },
+        {
+          "param-id": "ac-01_odp.08"
+        },
+        {
+          "param-id": "ac-1_prm_1"
+        },
+        {
+          "param-id": "ac-02_odp.01"
+        },
+        {
+          "param-id": "ac-02_odp.02"
+        },
+        {
+          "param-id": "ac-02_odp.03"
+        },
+        {
+          "param-id": "ac-02_odp.04"
+        },
+        {
+          "param-id": "ac-02_odp.05"
+        },
+        {
+          "param-id": "ac-02_odp.06"
+        },
+        {
+          "param-id": "ac-02_odp.07"
+        },
+        {
+          "param-id": "ac-02_odp.08"
+        },
+        {
+          "param-id": "ac-02_odp.09"
+        },
+        {
+          "param-id": "ac-02_odp.10"
+        },
+        {
+          "param-id": "ac-04.04_odp.01"
+        },
+        {
+          "param-id": "ac-04.04_odp.02"
+        },
+        {
+          "param-id": "ac-04.04_odp.03"
+        },
+        {
+          "param-id": "sc-01_odp.03"
+        },
+        {
+          "param-id": "sc-01_odp.04"
+        },
+        {
+          "param-id": "sc-01_odp.05"
+        },
+        {
+          "param-id": "sc-01_odp.06"
+        },
+        {
+          "param-id": "sc-01_odp.07"
+        },
+        {
+          "param-id": "sc-01_odp.08"
+        },
+        {
+          "param-id": "sc-1_prm_1"
+        }
+      ],
+      "alters": []
     }
   }
 }
